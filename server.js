@@ -4,7 +4,7 @@ import cors from "cors";
 import { dataPage1, dataPage2 } from "./data.js";
 
 const corsOptions = {
-  origin: "https://rk-telegram.netlify.app",
+  origin: ["https://rk-telegram.netlify.app", "http://localhost:5173"],
   optionsSuccessStatus: 200,
 };
 
